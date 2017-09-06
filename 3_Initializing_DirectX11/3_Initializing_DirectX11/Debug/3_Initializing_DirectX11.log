@@ -1,4 +1,4 @@
 ﻿  GraphicsClass.cpp
-c:\users\user\source\repos\directx_tutorial\3_initializing_directx11\3_initializing_directx11\graphicsclass.cpp(24): warning C4316: 'D3DClass': 힙에 할당된 개체가 16에 맞추어져 있지 않을 수도 있습니다
+c:\users\user\source\repos\directx_tutorial\3_initializing_directx11\3_initializing_directx11\graphicsclass.cpp(25): warning C4316: 'D3DClass': 힙에 할당된 개체가 16에 맞추어져 있지 않을 수도 있습니다
   3_Initializing_DirectX11.vcxproj -> C:\Users\user\source\repos\DirectX_Tutorial\3_Initializing_DirectX11\Debug\3_Initializing_DirectX11.exe
   3_Initializing_DirectX11.vcxproj -> C:\Users\user\source\repos\DirectX_Tutorial\3_Initializing_DirectX11\Debug\3_Initializing_DirectX11.pdb (Partial PDB)

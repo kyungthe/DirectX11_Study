@@ -1,0 +1,1 @@
+GPU_NAME: Intel(R) HD Graphics 620, GPU_MEMORY : 128MB

@@ -2,6 +2,7 @@
 // Filename: graphicsclass.cpp
 ////////////////////////////////////////////////////////////////////////////////
 #include "GraphicsClass.h"
+#include <stdio.h>
 
 GraphicsClass::GraphicsClass()
 {
@@ -60,6 +61,21 @@ bool GraphicsClass::Frame()
 	if (!result)
 	{
 		return false;
+	}
+
+	static bool createFile = false;
+	if (!createFile)
+	{
+		FILE* file;
+		fopen_s(&file, "GPU_INFO.txt", "w");
+		char name[128];
+		int memory;
+
+		m_D3D->GetVideoCardInfo(name, memory);
+		fprintf(file, "GPU_NAME: %s, GPU_MEMORY : %dMB", name, memory);
+
+		fclose(file);
+		createFile = true;
 	}
 
 	return true;
