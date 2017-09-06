@@ -6,7 +6,7 @@ http://ppparkje.tistory.com/category/%EA%B0%95%EC%A2%8C%EB%B2%88%EC%97%AD/Direct
 
 
 
-# 테스트 환경
+# Test Environment
 
 * Windows 10 64bit
 * Visual Studio Community 2017
